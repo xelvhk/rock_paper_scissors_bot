@@ -1,8 +1,42 @@
-# Rock Paper Scissors game bot
+# rock_paper_scissors_bot
 
-This bot made on Aiogram asynchronous framework for Telegram Bot API.
+"Rock scissors paper" game Telegram bot on Aiogram
 
-About bot structure:
-- User keyboards are located in the Keyboards module.
-- The contents of the buttons and the text of the commands are written in the lexicon module.
-- The game logic is located in the services module.
+Language: **English** | [Русский](README.ru.md)
+
+## Problem
+- This project solves a practical development or automation task.
+- The goal is to provide a clear implementation that is easy to run and extend.
+
+## Stack
+- Primary language: Python
+- Project-specific libraries and tools (see source files)
+
+## Setup
+```bash
+git clone https://github.com/xelvhk/rock_paper_scissors_bot
+cd rock_paper_scissors_bot
+# install dependencies (if present)
+# copy .env.example to .env (if present)
+# run the project
+```
+
+## Architecture
+- Entry points: application scripts and main modules in the repository root.
+- Core logic: domain-specific modules grouped by responsibility.
+- Data layer: local files/database/adapters depending on project scope.
+
+## Demo
+- Add screenshots/GIF or usage examples for key flows.
+- If deployed, add production URL.
+
+## Roadmap
+- [ ] Add/refresh setup instructions for zero-friction onboarding.
+- [ ] Add/update tests for critical paths.
+- [ ] Improve docs and examples for real-world usage.
+
+## Status
+Active development
+
+## License
+GNU AGPLv3. See [LICENSE](LICENSE).
